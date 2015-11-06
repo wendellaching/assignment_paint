@@ -20,7 +20,7 @@ brushes.push(wendellaching);
 wendellaching.draw = function() {
 	// noFill()
 	fill(forecolor);
-	stroke(forecolor);
+	stroke(0, 0, 0);
 	strokeWeight(3);
 
 	if (mouseIsPressed) {
